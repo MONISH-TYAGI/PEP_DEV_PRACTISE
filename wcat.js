@@ -67,10 +67,12 @@ if(isNPresent==true)
     for(let i=0;i<contentArr.length;i++)
     {
         contentArr[i]=`${i+1} ${contentArr[i]}`;
+        
     }
 }
 ///console.log(contentArr.join("\n"));
 // give -b numbers to non empty lines
+//check git
 let isBPresent=optionsArr.includes("-b");
 if(isBPresent==true)
 { let count=1;
