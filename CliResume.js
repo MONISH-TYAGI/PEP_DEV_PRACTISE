@@ -9,6 +9,7 @@ inquirer
            type:'list',
            name :'Selection',
            choices:['About' , 'Skills' , 'Projects' , 'Academics']
+           // commentsgit 
     }
   ])
   .then((choices) => {
