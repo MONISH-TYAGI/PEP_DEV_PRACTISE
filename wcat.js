@@ -16,7 +16,7 @@ filesArr.push(inputArr[i]);
  return ;}
  for(let i=0;i<filesArr.length;i++)
  {
-    // comment
+    // comment123
 let isFileExist=fs.existsSync(filesArr[i]);
      if(isFileExist==false)
   {   console.log(`file ${filesArr[i]} is not exist `)
